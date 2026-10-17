@@ -1569,7 +1569,7 @@ function mulaiLatihan(idBox) {
   function pilihSubbab() {
     let h =
       "<h3>Pilih sub-bab</h3>" +
-      '<p class="catatan">Tiap sub-bab punya 2 level, masing-masing 10 soal. ' +
+      '<p class="catatan">Tiap sub-bab terdapat 2 level, masing-masing 10 soal. ' +
       "Jawaban benar mendapat " + POIN_BENAR + " poin.</p>" +
       '<div class="menu" style="margin-top:16px">';
     LATIHAN.forEach(function (s, i) {
