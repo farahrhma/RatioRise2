@@ -1586,7 +1586,7 @@ function mulaiLatihan(idBox) {
     const sub = LATIHAN[si];
     let h =
       "<h3>" + (si + 1) + ". " + sub.judul + "</h3>" +
-      '<p class="catatan">Pilih level yang mau dikerjakan.</p>' +
+      '<p class="catatan">Pilih level yang akan dikerjakan.</p>' +
       '<div class="level-pilih">';
     [1, 2].forEach(function (lv) {
       const jml = (lv === 1 ? sub.level1 : sub.level2).length;
